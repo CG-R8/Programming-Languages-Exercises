@@ -1,0 +1,3 @@
+(chars(a) . chars(b)) + *chars(c)
+chars(a) . chars(b) + *chars(c) 
+(chars(a) . chars(b)) + chars(c)*
