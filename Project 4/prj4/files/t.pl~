@@ -1,0 +1,7 @@
+eval_arith(plus(X, Y), Z):-
+  Z is X + Y.
+eval_arith(times(X, Y), Z):-
+  Z is X * Y.
+eval_arith(X, X):-
+  integer(X).
+
